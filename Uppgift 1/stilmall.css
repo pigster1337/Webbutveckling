@@ -1,0 +1,13 @@
+ .meny{
+
+   display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   text-align: left;
+   margin:auto;
+   margin-top: 10px;
+   background-color: yellow;
+   border-style: solid;
+   border-radius: 5px;
+ }
