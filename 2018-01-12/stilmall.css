@@ -1,0 +1,44 @@
+ .stor{
+   display:flex;
+   width:1000px;
+   height:1000px;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   background-color: black;
+   border-style: dotted;
+   border-color: red;
+   margin:auto;
+ }
+
+
+
+.rad {
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+background-color: black;
+/*margin-top: 60px;
+margin-bottom:60px;*/
+
+
+}
+
+
+ .box{
+   display:flex;
+   justify-content: space-around;
+   background-color: red;
+   width:100px;
+   height:100px;
+   border-style: dotted;
+
+ }
+
+ .text{
+   display:none;
+ }
+
+ .box:hover .text{
+   display:block;
+ }

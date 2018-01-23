@@ -1,13 +1,95 @@
- .meny{
+body{
 
-   display:flex;
+  background-color: purple;
+}
+
+ .container{
+
+   display: flex;
    flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: flex-start;
-   text-align: left;
+   justify-content: space-around;
    margin:auto;
-   margin-top: 10px;
-   background-color: yellow;
+   width:750px;
+   height:50px;
+
+ }
+
+ .over{
+
    border-style: solid;
    border-radius: 5px;
+   text-align: left;
+   width:150px;
+   padding: 10px;
+   font-size:20px;
+   background-color: yellow;
+
+
+
  }
+
+ .under{
+   display:none;
+   background-color: yellow;
+   font-size:20px;
+   border-style: solid;
+   padding: 5px;
+   border-radius: 5px;
+
+   color:black;
+   text-align: left;
+ }
+
+ .over:hover .under{
+
+   display:block;
+ }
+
+ .over:hover{
+   color:red;
+ }
+
+ .under:hover{
+   color:red;
+ }
+
+
+.container2{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width:750px;
+  height:750px;
+  background-color: green;
+  border-style: solid;
+  border-radius: 10px;
+  margin:auto;
+  margin-top: 20px;
+
+}
+
+.item1{
+
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: flex-start;
+  width:500px;
+  height:750px;
+
+}
+
+.item2{
+
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: flex-start;
+  width:250px;
+  height:750px;
+}
+
+.text{
+
+  padding:40px;
+  font-size: 20px;
+}
