@@ -39,7 +39,7 @@ body{
    border-style: solid;
    padding: 5px;
    border-radius: 5px;
-
+   position: static;
    color:black;
    text-align: left;
    z-index: 2;
@@ -87,7 +87,7 @@ body{
   z-index: 1;
   border-right: solid;
   border-color: white;
-  border-width: 3px;
+  border-width: 1.5px;
   padding:40px;
   font-size: 20px;
 
