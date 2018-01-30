@@ -3,6 +3,10 @@ body{
   background-color: purple;
 }
 
+a{
+  color: black;
+}
+
 
 
  .container{
@@ -19,7 +23,7 @@ body{
 
  .over{
    text-align: left;
-   padding: 10px;
+   padding: 9px;
    border-style: solid;
    border-radius: 5px;
    width:150px;

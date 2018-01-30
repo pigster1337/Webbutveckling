@@ -8,6 +8,22 @@
 <link rel="stylesheet" href="stilmall.css">
 <title>ej</title>
 
+<script>
+
+function redKropp()
+{
+
+  document.body.style.backgroundcolor = "red";
+}
+
+function blackKropp()
+{
+
+  document.body.style.backgroundcolor = "black";
+}
+
+</script>
+
 </head>
 
 <body>
@@ -16,7 +32,8 @@
   <div class="item1">
     <div class="item2">
       <div class="item3">
-        <div class="text">sedvin är en ängel 2</div>
+        <div class="text" onmouseover="redKropp();"
+        onmouseout="blackKropp();">sedvin är en ängel 2</div>
       </div>
     </div>
   </div>
