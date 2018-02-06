@@ -1,0 +1,44 @@
+body{
+
+  background-color: grey;
+}
+
+ .container{
+   display:flex;
+   justify-content: space-around;
+   flex-direction: row;
+   margin:auto;
+   margin-top: 45px;
+   height:75px;
+   width:800px;
+   border-bottom-style: groove;
+
+ }
+
+ .item{
+   color: white;
+   border-right-style: groove;
+   text-align: center;
+   width:200px;
+   padding: 20px;
+   font-size: 22px;
+ }
+
+ .item2{
+   color: white;
+   width:200px;
+   color:white;
+   text-align: center;
+   padding: 20px;
+   font-size: 22px;
+ }
+
+
+.item:hover .item{
+  background-color: black;
+}
+
+a{
+
+  color: white;
+}

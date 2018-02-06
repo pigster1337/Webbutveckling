@@ -1,0 +1,30 @@
+ ol{
+
+
+ }
+
+ li{
+
+
+ }
+
+ ul{
+
+
+ }
+
+ .underlista{
+   list-style-type: lower-alpha;
+ }
+
+
+table{
+color: blue;
+}
+
+td{
+
+  border-bottom: solid;
+  padding: 5px;
+  border-color: red;
+}
