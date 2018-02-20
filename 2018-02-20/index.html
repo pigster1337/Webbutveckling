@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+ <title>Uppgift 8.10 C++</title>
+ <meta charset="utf-8">
+ <script>
+
+ function matain()
+ {
+ var inmatning = document.getElementById("inmatningar").value;
+ var inm = inmatning.split(' ');
+ //document.getElementById("utmatning").innerHTML=inm[1];
+ //största värdet
+ var tmp = '';
+ for (var i=0; i<inm.length; i++){
+   if(inm[i] > tmp)
+   tmp = inm[i];
+
+ }
+
+ document.getElementById("utmatning").innerHTML="Största talet är: "+tmp;
+/* minsta */
+ for (var i=0; i<inm.length; i++){
+   if(inm[i] < tmp)
+   tmp = inm[i];
+
+ }
+
+ document.getElementById("utmatning").innerHTML+="<br>Minsta talet är: "+tmp;
+ }
+
+ </script>
+</head>
+<body>
+
+<input type="text" id="inmatningar">
+<input type="button" onclick="matain()">
+<div id="utmatning"></div>
+
+</body>
+</html>

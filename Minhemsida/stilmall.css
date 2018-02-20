@@ -6,20 +6,19 @@ body{
  .container{
    display:flex;
    justify-content: space-around;
-   flex-direction: row;
-   margin:auto;
+   flex-direction: column;
    margin-top: 45px;
-   height:75px;
-   width:800px;
-   border-bottom-style: groove;
+   border-right-style: : groove;
 
  }
 
  .item{
    color: white;
    border-right-style: groove;
+   border-bottom-style: groove;
    text-align: center;
    width:200px;
+   height:50px;
    padding: 20px;
    font-size: 22px;
  }
@@ -27,18 +26,42 @@ body{
  .item2{
    color: white;
    width:200px;
+   height:50px;
    color:white;
    text-align: center;
    padding: 20px;
    font-size: 22px;
+   border-right-style: groove;
  }
 
 
-.item:hover .item{
+.item:hover{
   background-color: black;
 }
+
+.item2:hover{
+  background-color: black;
+}
+
 
 a{
 
   color: white;
+}
+
+.rubrik{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.välkommen{
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  width:300px;
+  
+
 }
