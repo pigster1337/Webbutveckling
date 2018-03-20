@@ -7,7 +7,7 @@ body{
    display:flex;
    justify-content: left;
    flex-direction: row;
-   margin-top: 45px;
+   margin-top: 114px;
 
  }
 
@@ -16,16 +16,8 @@ body{
    justify-content: space-around;
    flex-direction: column;
 
- }
- .höger{
-   width: 500px;
-   height:280px;
-   margin-left: 330px;
-   margin-top: 45px;
-   border-style: groove;
-   box-shadow: 5px 5px 5px;
-   border-radius: 10px;
- }
+
+}
 
  .item{
    color: white;
@@ -39,7 +31,6 @@ body{
    font-size: 22px;
    text-shadow: 1px 1px 5px;
    font-family: serif;
-
  }
 
  .item2{
@@ -94,29 +85,6 @@ a{
   font-family: serif;
 
 
-}
-
-.text{
-
-  font-size: 20px;
-  color: white;
-  background-color: grey;
-  width:250px;
-  text-align: center;
-  margin: auto;
-  padding: 10px;
-  border-bottom-style: groove;
-  border-radius: 22px;
-  font-family: serif;
-}
-
-.kommentar{
-  margin-top: 10px;
-  font-size: 20px;
-  color: white;
-  text-shadow: 1px 1px 5px;
-  text-align: center;
-  font-family: serif;
 }
 
 .rubriklänk{
