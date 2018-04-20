@@ -15,16 +15,7 @@ body{
    display:flex;
    justify-content: center;
    flex-direction: row;
-
  }
- .under{
-   margin:auto;
-   margin-top: 45px;
-
- }
-
-
-
 
  .item{
 
@@ -104,4 +95,38 @@ a{
 .rubriklänk{
 
   font-family: fantasy;
+}
+
+.under{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:auto;
+  margin-top: 45px;
+
+}
+
+.spelare{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:300px;
+  background-color: white;
+  color: black;
+
+}
+
+.info{
+
+  display:none;
+  width:300px;
+  background-color: white;
+  color: black;
+
+}
+
+.spelare:hover .info{
+
+  display:block;
 }
