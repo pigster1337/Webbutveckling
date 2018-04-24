@@ -15,6 +15,7 @@ body{
    display:flex;
    justify-content: center;
    flex-direction: row;
+   margin-bottom: 30px;
  }
 
  .item{
@@ -110,19 +111,38 @@ a{
 
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-  width:300px;
+  text-align: center;
+  width:200px;
   background-color: white;
   color: black;
+  font-size: 25px;
+  font-family: fantasy;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px;
+
 
 }
 
 .info{
 
   display:none;
-  width:300px;
+  text-align: center;
+  width:150px;
   background-color: white;
   color: black;
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: serif;
+  position: absolute;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 15px;
+  border-style: groove;
+  box-shadow: 1px 1px 20px;
+
 
 }
 
