@@ -59,6 +59,25 @@ body{
   color: white;
 }
 
+table{
+
+  width: 1000px;
+  background-color:rgb(140, 41, 41);
+  border-radius: 20px;
+  padding: 10px;
+  text-align: left;
+
+}
+
+th{
+
+  font-size: 25px;
+}
+
+td{
+
+  font-size: 17px;
+}
 
 
 a{
@@ -167,4 +186,15 @@ h1{
   padding: 15px;
   border-radius: 15px;
   box-shadow: 1px 1px 20px;
+  width:200px;
+  margin: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.box{
+
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
 }
