@@ -31,8 +31,6 @@ body{
  }
 
 
-
-
  .item{
 
    background-color: white;
@@ -47,8 +45,6 @@ body{
    font-family: serif;
 
  }
-
-
 
 
 .item:hover{
@@ -66,6 +62,8 @@ table{
   border-radius: 20px;
   padding: 10px;
   text-align: left;
+  margin: auto;
+  margin-top: 20px;
 
 }
 
@@ -76,7 +74,7 @@ th{
 
 td{
 
-  font-size: 17px;
+  font-size: 18px;
 }
 
 
@@ -95,7 +93,7 @@ a{
 
 }
 
-.välkommen{
+.valkommen{
   font-size: 35px;
   color: black;
   background-color: white;
@@ -188,13 +186,49 @@ h1{
   box-shadow: 1px 1px 20px;
   width:200px;
   margin: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   text-align: center;
 }
 
 .box{
-
+  display:flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: auto;
+  margin-top: 80px;
+}
+
+
+.spelarbox{
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  width: 550px;
+  background-color: blue;
+  background-color:rgb(140, 41, 41);
+  border-radius: 10px;
+
+}
+
+.sponsorer{
+
+    background-color:rgb(140, 41, 41);
+    font-size: 18px;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: left;
+    margin-top:30px;
+}
+
+button{
+
+  margin-top: 20px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px;
 }

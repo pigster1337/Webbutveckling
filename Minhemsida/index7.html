@@ -4,11 +4,19 @@
  <title>Pigsterhub</title>
  <meta charset="utf-8">
  <link rel="stylesheet" type="text/css" href="stilmall.css">
+ <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 </head>
+
+<script>
+function sponsring() {
+    document.getElementById("sponsring").innerHTML = "Du sponsrar nu Kinna IF, tack för hjälpen!";
+}
+</script>
+
 <body>
 
   <div class="rubrik">
-    <div class="valkommen">Visas nu: <div class="rubriklänk"><a href="../Minhemsida/index.html">Anfallare</a></div> </div>
+    <div class="valkommen">Visas nu: <div class="rubriklänk"><a href="../Minhemsida/index.html">Sponsorer</a></div> </div>
     <div class="text">Välj i menyn vad du vill göra!</div>
 
   </div>
@@ -26,23 +34,20 @@
       <div class="item"><a href="../Minhemsida/index7.html">Sponsorer</a></div>
       <div class="item"><a href="../Minhemsida/index8.html">Kontakt</a></div>
     </div>
-
-
       <div class="box">
-
-        <h1>Anfallare:</h1>
-
-        <div class="spelarbox">
-
-          <div class="spelare">Erik</div>
-          <div class="spelare">Isak</div>
-          <div class="spelare">Gustav</div>
+        <div class="sponsorer">
+            <ul>
+              <li>BRA (Billström | Riemer | Andersson)</li>
+              <li>AB Ludvig Svensson</li>
+              <li>Franzéns Textil AB</li>
+              <li>Stora Enso</li>
+              <li id="sponsring">-</li>
+            </ul>
         </div>
+        <button type="button" onclick="sponsring()">Klicka här för att sponsra Kinna IF!</button>
+      </div>
 
-    </div>
 
-
-  </div>
 
 </body>
 </html>
