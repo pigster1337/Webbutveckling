@@ -83,6 +83,11 @@ a{
 
 }
 
+img{
+
+  box-shadow: 1px 1px 20px;
+}
+
 .rubrik{
 
   display: flex;
@@ -135,6 +140,7 @@ a{
   font-family: serif;
   background-color: white;
   border-radius: 7px;
+  box-shadow: 1px 1px 20px;
 
 }
 
