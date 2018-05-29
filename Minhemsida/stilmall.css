@@ -208,6 +208,7 @@ h1{
 
 
 .spelarbox{
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
